@@ -2,6 +2,10 @@
 
 I'm building this as a side project, where it goes from here is all part of the fun...
 
+Pipelines :
+
+[![CI_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml)
+
 ---
 
 The initial plan is to include :
