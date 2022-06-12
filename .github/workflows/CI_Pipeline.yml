@@ -4,14 +4,21 @@
 
 name: 'CI_Pipeline'
 
-# On pull request or push to main branch
+# On pull request or push to main branch src & dependecies
 on:
   pull_request:
    branches:
       - main
+   paths:
+      - src/**
+      - dependencies/**
+
   push:
    branches:
       - main
+   paths:
+      - src/**
+      - dependencies/**
 
 # Permissions for private repo
 permissions:
