@@ -22,6 +22,9 @@ permissions:
 
 jobs:
   BuildLibrary:
+# Needs CI pipeline to complete first
+    needs: 'CI_Pipeline'
+
 # Set-up Linux VM 
     runs-on: 'ubuntu-latest'
 
