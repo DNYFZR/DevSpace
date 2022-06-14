@@ -10,14 +10,14 @@ on:
    branches:
       - main
    paths:
-      - src/**
+      - pyDev/**
       - dependencies/**
 
   push:
    branches:
       - main
    paths:
-      - src/**
+      - pyDev/**
       - dependencies/**
 
 # Permissions for private repo
