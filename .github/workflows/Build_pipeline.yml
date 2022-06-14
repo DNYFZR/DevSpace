@@ -66,4 +66,4 @@ jobs:
         tag: 'v0.2'
         allowUpdates: true
         replacesArtifacts: true
-        artifacts: '*.whl'
+        artifacts: 'dist/**'
