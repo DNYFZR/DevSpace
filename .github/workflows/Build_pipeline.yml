@@ -6,10 +6,11 @@ name: 'Build_Pipeline'
 
 # On pull request or push to main branch src & dependecies
 on:
-  push:
-   branches:
-      - main
-   paths:
+  workflow_run:
+    workflows: ['CI_Pipeline']
+    types:
+      - completed
+    paths:
       - src/**
       - dependencies/**
 
@@ -22,9 +23,6 @@ permissions:
 
 jobs:
   BuildLibrary:
-# Needs CI pipeline to complete first
-    needs: 'CI_Pipeline'
-
 # Set-up Linux VM 
     runs-on: 'ubuntu-latest'
 
