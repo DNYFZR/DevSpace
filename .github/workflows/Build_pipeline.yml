@@ -63,7 +63,6 @@ jobs:
     - name: Create Release
       uses: ncipollo/release-action@v1.10.0
       with:
-        tag: 'v0.2'
+        tag: 'v0.2.2'
         allowUpdates: true
         replacesArtifacts: true
-#        artifacts: dist/*
