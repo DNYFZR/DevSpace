@@ -12,7 +12,7 @@ on:
    paths:
       - src/**
       - dependencies/**
-      - workflows/**
+      - .github/workflows/**
 
   push:
    branches:
@@ -20,7 +20,7 @@ on:
    paths:
       - src/**
       - dependencies/**
-      - workflows/**
+      - .github/workflows/**
 
 # Permissions for private repo
 permissions:
