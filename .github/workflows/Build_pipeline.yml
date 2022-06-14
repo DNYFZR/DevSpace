@@ -15,10 +15,8 @@ on:
     paths:
       - src/**
       - dependencies/**
-  
-  create:
     tags:
-      - dev*
+      - '*'
 
 # Permissions for private repo
 permissions:
@@ -62,11 +60,10 @@ jobs:
         python -m build --sdist --wheel --outdir dist/
 
 # Publish artifacts
-    - name: Publish GitHub Release Artifacts
-      if: ${{ startsWith(github.ref, 'refs/tags/') }}
-      uses: SierraSoftworks/gh-releases@v1.0.6
+    - name: Create Release
+      uses: ncipollo/release-action@v1.10.0
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        overwrite: 'true'
-        files: |
-          **.whl
+        tag: 'v0.2'
+        replacesArtifacts: true
+        overwrite: true
+        artifacts: '**.whl'
