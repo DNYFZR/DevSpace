@@ -57,7 +57,8 @@ jobs:
     - name: Build distribution
       run: |
         cd src/
-        python -m build --sdist --wheel --outdir dist/
+        python -m build 
+# --sdist --wheel --outdir dist/
 
 # Publish artifacts
     - name: Create Release
