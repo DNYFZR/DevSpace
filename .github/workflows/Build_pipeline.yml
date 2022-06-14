@@ -65,5 +65,4 @@ jobs:
       with:
         tag: 'v0.2'
         replacesArtifacts: true
-        overwrite: true
-        artifacts: '**.whl'
+        artifacts: '*.whl'
