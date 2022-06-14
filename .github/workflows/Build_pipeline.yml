@@ -23,6 +23,7 @@ permissions:
 
 jobs:
   BuildLibrary:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 # Set-up Linux VM 
     runs-on: 'ubuntu-latest'
 
