@@ -15,7 +15,11 @@ on:
     paths:
       - src/**
       - dependencies/**
-
+  
+  create:
+    tags:
+      - dev*
+      
 # Permissions for private repo
 permissions:
   contents: write
