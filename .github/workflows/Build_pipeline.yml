@@ -10,6 +10,8 @@ on:
     workflows: ['CI_Pipeline']
     types:
       - completed
+    branches:
+      - main
     paths:
       - src/**
       - dependencies/**
@@ -55,5 +57,11 @@ jobs:
         cd src/
         python -m build --sdist --wheel --outdir dist/
 
-# Publish package ???
-   
+# Publish artifacts
+    - name: Publish GitHub Release Artifacts
+      uses: SierraSoftworks/gh-releases@v1.0.6
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        overwrite: 'true'
+        files: |
+          **.whl
