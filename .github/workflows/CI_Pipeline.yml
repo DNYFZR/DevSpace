@@ -12,6 +12,7 @@ on:
    paths:
       - pyDev/**
       - dependencies/**
+      - workflows/**
 
   push:
    branches:
@@ -19,6 +20,7 @@ on:
    paths:
       - pyDev/**
       - dependencies/**
+      - workflows/**
 
 # Permissions for private repo
 permissions:
