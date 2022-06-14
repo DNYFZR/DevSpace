@@ -6,18 +6,20 @@ Pipelines :
 
 [![CI_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml)
 
+[![Build_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml)
+
 ---
 
 The initial plan is to include :
 
 DevOps :
 
-    - Automated integration testing with GitHub actions.
+- Automated integration testing with GitHub actions.
 
-    - Automated package building under suitable conditions.
+- Automated package building under suitable conditions.
 
 DevTools :
 
-    - A parallel processing class, built with the Python multiprocessing library.
+- A parallel processing class, built with the Python multiprocessing library.
 
-    - Data ingestion & processing tools in a fucntions library.
+- Data ingestion & processing tools in a fucntions library.
