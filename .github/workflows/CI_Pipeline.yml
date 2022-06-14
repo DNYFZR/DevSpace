@@ -17,7 +17,11 @@ on:
   push:
    branches:
       - main
-   
+   paths:
+      - pyDev/**
+      - dependencies/**
+      - workflows/**
+
 # Permissions for private repo
 permissions:
   contents: write
@@ -57,7 +61,7 @@ jobs:
 # Run integration tests
     - name: Run codebase functional testing
       run: |
-        pytest -v src/tests/ --doctest-modules --junitxml=unit-testresults.xml --cov=src/scripts/ --cov-append --cov-report=xml:xmlcov --cov-report=html:htmlcov 
+        pytest -v src/tests/ --doctest-modules --junitxml=unit-testresults.xml --cov=src/pyDev/ --cov-append --cov-report=xml:xmlcov --cov-report=html:htmlcov 
 
 # Publish test results
     - name: Publish test reuslts
