@@ -10,7 +10,7 @@ on:
    branches:
       - main
    paths:
-      - pyDev/**
+      - src/**
       - dependencies/**
       - workflows/**
 
@@ -18,7 +18,7 @@ on:
    branches:
       - main
    paths:
-      - pyDev/**
+      - src/**
       - dependencies/**
       - workflows/**
 
