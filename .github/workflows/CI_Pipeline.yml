@@ -17,11 +17,7 @@ on:
   push:
    branches:
       - main
-   paths:
-      - pyDev/**
-      - dependencies/**
-      - workflows/**
-
+   
 # Permissions for private repo
 permissions:
   contents: write
