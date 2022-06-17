@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 data = dict(
     name="pyDev",
-    version="0.1",
+    version="0.2.3",
     packages=find_packages(include=['pyDev*']),
 )
 
