@@ -1,6 +1,6 @@
 import pytest, sys
 sys.path.append('..')
-from pyDev.functions import random_int_array
+from pyDev.__functions import random_int_array
 
 @pytest.mark.parametrize('test_vals', [(0, 1000, 100)])
 def test_array_len(test_vals):
