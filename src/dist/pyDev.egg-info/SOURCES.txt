@@ -1,0 +1,9 @@
+setup.py
+pyDev/__init__.py
+pyDev/api.py
+pyDev/functions.py
+pyDev/pyDev.py
+pyDev.egg-info/PKG-INFO
+pyDev.egg-info/SOURCES.txt
+pyDev.egg-info/dependency_links.txt
+pyDev.egg-info/top_level.txt
