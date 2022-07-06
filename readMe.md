@@ -1,25 +1,8 @@
-# pyDevLib - Python developer tools library
+# DevSpace
 
-I'm building this as a side project, where it goes from here is all part of the fun...
+A little bit of software development, a little bit of DevOps, and a little bit of learning...
 
-Pipelines :
-
-[![CI_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml)
-
-[![Build_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml)
-
----
-
-The initial plan is to include :
-
-DevOps :
-
-- Automated integration testing with GitHub actions.
-
-- Automated package building under suitable conditions.
-
-DevTools :
-
-- A parallel processing class, built with the Python multiprocessing library.
-
-- Data ingestion & processing tools in a fucntions library.
+| Pipeline | Status
+|--|--
+| Continuous Integration | [![CI_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/CI_Pipeline.yml)
+| Continuous Deployment | [![Build_Pipeline](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml/badge.svg)](https://github.com/iDataEngineer/pyDevLib/actions/workflows/Build_pipeline.yml)
