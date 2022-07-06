@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 data = dict(
-    name="pyDev",
-    version="0.2.3",
-    packages=find_packages(include=['pyDev*']),
+    name="Dev",
+    version="0.0.1",
+    packages=find_packages(include=['library*']),
 )
 
 if __name__ == '__main__':
