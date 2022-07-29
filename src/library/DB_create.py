@@ -1,6 +1,6 @@
 import io, psycopg2 as sql, pandas as pd
 from sqlalchemy import create_engine
-from getPW import getPW
+from ...secrets.getPW import getPW
 
 # Access token
 db = 'ATP_tour_data'
